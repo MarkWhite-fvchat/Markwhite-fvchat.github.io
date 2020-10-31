@@ -2,43 +2,37 @@ img {
 	user-select: none;
 }
 
-nav a {
-	color: black;
-	font-size: 18px;
-	margin-right: 10px;
-}
-
-#collapsibleNavbar {
-	margin-left:  185px;
-}
-
-#carouselExampleSlidesOnly {
-	margin-top: 150px;
-	margin-bottom: 150px;
-}
-
-#im1_g img {
-	height: 360px;
-	width: 100%;
-	margin-bottom: 45px;
-	margin-left: 100px;
-}
-#im2_g img {
-    height: 360px;
-	width: 100%;
-	margin-bottom: 45px;
-	margin-left: 100px;
-}
-
-#carouselExampleSlidesOnly img {
-	height: 530px;
-}
 
 body {
   background: url("img/background.jpg");
   background-repeat: no-repeat;
-  background-size: 6em;
+  background-size: contain;
 }
 #footer {
   background-color:black;
+}
+#banner {
+	margin-top: 100px;
+}
+#ipad {
+	margin-bottom: 100px;
+	margin-top: -47px;
+}
+#connection {
+	color: lightseagreen;
+}
+#email {
+	color: #ff4828;
+}
+#giveEmail{
+	height: 38px;
+}
+.PS {
+	margin-bottom: -5px;
+}
+#textInfooter{
+	color: white;
+}
+#info{
+	background-color: white;
 }
