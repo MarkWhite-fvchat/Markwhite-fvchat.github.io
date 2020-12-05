@@ -1,18 +1,15 @@
 img {
 	user-select: none;
 }
-#info{
-	margin-top: 100px;
-}
+
 
 body {
-  background: url("../../img/background.jpg");
+  background: url("img/background.jpg");
   background-repeat: no-repeat;
   background-size: contain;
 }
 #footer {
   background-color:black;
-  margin-top: 50px;
 }
 #banner {
 	margin-top: 100px;
@@ -38,8 +35,4 @@ body {
 }
 #info{
 	background-color: white;
-}
-#PromisedNeverlend{
-	width: 1000px;
-	margin-left: calc(50vw - 500px);
 }

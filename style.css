@@ -1,38 +1,25 @@
-img {
-	user-select: none;
+#infoLeft {
+    background-color: white;
+    width: 630px;
+    height: 450px;
 }
-
-
+#infoLeft {
+    background-color: white;
+    width: 630px;
+    height: 450px;
+}
+#infoRight {
+    transform: scaleX(-1);
+    background-color: white;
+}
+#photo {
+    width: 600px;
+    height: 450px;
+    background-color: black;
+}
+.row {
+    width: 100%;
+}
 body {
-  background: url("img/background.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-#footer {
-  background-color:black;
-}
-#banner {
-	margin-top: 100px;
-}
-#ipad {
-	margin-bottom: 100px;
-	margin-top: -47px;
-}
-#connection {
-	color: lightseagreen;
-}
-#email {
-	color: #ff4828;
-}
-#giveEmail{
-	height: 38px;
-}
-.PS {
-	margin-bottom: -5px;
-}
-#textInfooter{
-	color: white;
-}
-#info{
-	background-color: white;
+    background: url("img/depositphotos_7138169-stock-photo-alley-in-the-forest.jpg");
 }
