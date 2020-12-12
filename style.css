@@ -1,25 +1,102 @@
-#infoLeft {
-    background-color: white;
-    width: 630px;
-    height: 450px;
+#about_me{
+    width: 100%;
 }
+
 #infoLeft {
-    background-color: white;
-    width: 630px;
+    width: 0px;
     height: 450px;
+    position: relative;
+    left: 0;
+    display: inline-block;
+
+    -webkit-transition: width 2s ease;
+    -moz-transition: width 2s ease;
+    -o-transition: width 2s ease;
+    transition: width 2s ease;
+    white-space: nowrap;
+    overflow: hidden;
+    background: yellow;
+    width: 0px;
 }
+#infoLeft.in{
+    width: 580px;
+}
+[data-target="#infoLeft"]{
+    position: relative;
+    top: -225px;
+}
+
+
+
+
 #infoRight {
-    transform: scaleX(-1);
-    background-color: white;
+    width: 0px;
+    height: 450px;
+    position: absolute;
+    right: 0;
+    display: inline-block;
+
+    -webkit-transition: width 2s ease;
+    -moz-transition: width 2s ease;
+    -o-transition: width 2s ease;
+    transition: width 2s ease;
+    white-space: nowrap;
+    overflow: hidden;
+    background: yellow;
+    width: 0px;
 }
+#infoRight.in{
+    width: 580px;
+}
+#reverse {
+    -webkit-transition: right 2s ease;
+    -moz-transition: right 2s ease;
+    -o-transition: right 2s ease;
+    transition: right 2s ease;
+    
+    position: absolute;
+    right: 0;
+    top: 255px;
+    transform: scaleX(-1);
+}
+#reverse.out{
+    right: 580px;
+}
+
+#infoCenter{
+    position: absolute;
+    left: calc(50% - 300px);
+    top: 56px;
+}
+
 #photo {
     width: 600px;
     height: 450px;
-    background-color: black;
+    border-radius: 9% 56% 53%;
+    background-color: #c73018a6;
 }
 .row {
     width: 100%;
 }
 body {
     background: url("img/depositphotos_7138169-stock-photo-alley-in-the-forest.jpg");
+}
+#about_me01 {
+    color: black;
+    background-color: red;
+}
+#info01 {
+    color: black;
+    background-color: rgb(30, 114, 211);
+}
+#footer01 {
+    color: black;
+    background-color: rgb(35, 156, 71);
+}
+#contactMe {
+    text-align: center;
+}
+.carousel-item {
+    width: 600px;
+    height: 600px;
 }
